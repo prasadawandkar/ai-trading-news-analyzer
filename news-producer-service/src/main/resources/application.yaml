@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: newsproducer
+  kafka:
+    bootstrap-servers: localhost:9092
+    properties:
+      schema.registry.url: http://localhost:8081
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+
+news:
+  api:
+    url: https://gnews.io/api/v4/search
+    key: 2bff7115385bc19efd7832dcb311833b
+    query: stock OR finance OR trading OR market
+    lang: en
+    max: 10

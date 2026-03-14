@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "NewsEvent",
+  "namespace": "com.market.news",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "headline", "type": "string" },
+    { "name": "content", "type": "string" },
+    { "name": "source", "type": "string" },
+    { "name": "publishedAt", "type": "string" }
+  ]
+}
