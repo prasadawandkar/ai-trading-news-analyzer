@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ai-analysis-service/ai-trading-news-analyzer.ai-analysis-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ai-analysis-service/ai-trading-news-analyzer.ai-analysis-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/news-producer-service/ai-trading-news-analyzer.news-producer-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/news-producer-service/ai-trading-news-analyzer.news-producer-service.main.iml" />
-    </modules>
-  </component>
-</project>
