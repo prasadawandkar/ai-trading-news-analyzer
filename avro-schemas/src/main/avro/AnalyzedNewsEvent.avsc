@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "AnalyzedNewsEvent",
+  "namespace": "com.market.news",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "headline", "type": "string"},
+    {"name": "company", "type": ["null","string"], "default": null},
+    {"name": "sentimentScore", "type": "double"},
+    {"name": "sentimentLabel", "type": "string"},
+    {"name": "publishedAt", "type": "string"}
+  ]
+}

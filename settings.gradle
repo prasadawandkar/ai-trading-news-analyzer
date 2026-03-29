@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'ai-trading-news-analyzer'
+
+include 'avro-schemas'
+include 'news-producer-service'
+include 'ai-analysis-service'
+include 'storage-service'
+include 'api-service'

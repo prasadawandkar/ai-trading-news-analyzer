@@ -1,6 +1,5 @@
 package com.prasad.newsproducer.kafka;
 
-
 import com.market.news.NewsEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -17,7 +16,7 @@ public class KafkaProducerService {
     }
 
     public void publishNews(NewsEvent event) {
-        log.info("Publishing the news ..."+ event.getHeadline());
+        log.info("Publishing the raw news ..."+ event.getHeadline());
         kafkaTemplate.send("raw-news", event.getId().toString(), event);
     }
 }
